@@ -21,12 +21,7 @@ public class Cache<K, V> {
     private final RemoteCache<K, V> cache;
 
     public static <K, V> Single<Cache<K, V>> create(Vertx vertx) {
-        Configuration config = new ConfigurationBuilder()
-            .nearCache().mode(NearCacheMode.INVALIDATED).maxEntries(10)
-            .addServer()
-            .host("cache-server")
-            .port(11222)
-            .build();
+        Configuration config = new ConfigurationBuilder().addServer().host("cache-server").port(11222).build();
         return vertx.
             <RemoteCache<K, V>>rxExecuteBlocking(
                 future -> {
