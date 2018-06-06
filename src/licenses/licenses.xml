@@ -79,6 +79,17 @@
             </licenses>
         </dependency>
         <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.4.0.redhat-1</version>
+            <licenses>
+                <license>
+                    <name>Apache License 2.0</name>
+                    <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+                </license>
+            </licenses>
+        </dependency>
+        <dependency>
             <groupId>com.github.mifmif</groupId>
             <artifactId>generex</artifactId>
             <version>1.0.1</version>
@@ -455,7 +466,7 @@
         <dependency>
             <groupId>io.openshift.booster</groupId>
             <artifactId>cute-name-service</artifactId>
-            <version>1-SNAPSHOT</version>
+            <version>2-SNAPSHOT</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -466,7 +477,7 @@
         <dependency>
             <groupId>io.openshift.booster</groupId>
             <artifactId>greeting-service</artifactId>
-            <version>1-SNAPSHOT</version>
+            <version>2-SNAPSHOT</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -543,7 +554,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-auth-common</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -558,7 +569,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-bridge-common</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -573,7 +584,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-core</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -588,7 +599,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-rx-java2</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -603,7 +614,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -618,7 +629,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web-client</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -633,7 +644,7 @@
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-web-common</artifactId>
-            <version>3.5.1.redhat-003</version>
+            <version>3.5.1.redhat-004</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -1264,7 +1275,7 @@
         <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-client-hotrod</artifactId>
-            <version>8.4.2.Final-redhat-1</version>
+            <version>8.5.0.Final-redhat-9</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
@@ -1275,7 +1286,7 @@
         <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-commons</artifactId>
-            <version>8.4.2.Final-redhat-1</version>
+            <version>8.5.0.Final-redhat-9</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
