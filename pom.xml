@@ -19,8 +19,8 @@
   </modules>
 
   <properties>
-    <vertx.version>3.5.3.redhat-00001</vertx.version>
-    <infinispan.version>8.5.0.Final-redhat-9</infinispan.version>
+    <vertx.version>3.5.4.redhat-00002</vertx.version>
+    <infinispan.version>8.5.3.Final-redhat-00002</infinispan.version>
     <vertx.verticle>io.openshift.vertx.cache.CacheVerticle</vertx.verticle>
 
     <vertx-maven-plugin.version>1.0.17</vertx-maven-plugin.version>
