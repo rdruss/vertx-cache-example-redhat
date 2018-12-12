@@ -20,7 +20,7 @@
 
   <properties>
     <vertx.version>3.5.4.redhat-00002</vertx.version>
-    <infinispan.version>8.5.3.Final-redhat-00002</infinispan.version>
+    <infinispan.version>9.4.4.Final</infinispan.version>
     <vertx.verticle>io.openshift.vertx.cache.CacheVerticle</vertx.verticle>
 
     <vertx-maven-plugin.version>1.0.18</vertx-maven-plugin.version>
