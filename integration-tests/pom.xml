@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>io.openshift.booster</groupId>
-		<artifactId>cache-booster-vertx-redhat</artifactId>
+		<groupId>io.openshift.example</groupId>
+		<artifactId>cache-example-vertx-redhat</artifactId>
     	<version>11-SNAPSHOT</version>
 	</parent>
 
@@ -16,12 +16,12 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>io.openshift.booster</groupId>
+			<groupId>io.openshift.example</groupId>
 			<artifactId>cute-name-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>io.openshift.booster</groupId>
+			<groupId>io.openshift.example</groupId>
 			<artifactId>greeting-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
