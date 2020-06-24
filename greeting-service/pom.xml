@@ -90,7 +90,7 @@
                 </excludes>
                 <config>
                   <f8-healthcheck-vertx>
-                    <path>/</path>
+                    <path>/health</path>
                   </f8-healthcheck-vertx>
                 </config>
               </enricher>
